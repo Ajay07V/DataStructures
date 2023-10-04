@@ -37,6 +37,6 @@ public class SlidingWindow {
         return ans;
             //Time Complexity for first loop is 'k'
         //Time complexity for while loop is 'n-k' as one time is iterated already otherwise it would be n-k+1
-        //TC=k+(n-k)
+        //TC=k+(n-k)=O(n)
         }
 }
