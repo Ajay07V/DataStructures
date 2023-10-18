@@ -7,13 +7,15 @@ Check if there exists a pair (i,j) such that Bi + Bj = A and i!=j*/
 
 >And this will true and you will return 1. But this will be wrong. As you considering same 3 as pair.
 
->So, correct appraoch will be move line 9 if condition before line 6 if condition.*/
+>So, correct approach will b
+
+e move line 9 if condition before line 6 if condition.*/
 
 import java.util.HashSet;
 
 public class FindPairMatchesK {
     public static void main(String[] args) {
-        int[] A = { 9, 71, 45, 95, 55, 78, 85, 1, 43, 57, 16, 68, 15, 1, 0, 51};
+        int[] A = {9, 71, 45, 95, 55, 78, 85, 1, 43, 57, 16, 68, 15, 1, 0, 51};
         int k = 9;
         boolean present = isPairPresent(A, k);
         System.out.println(present);
@@ -26,9 +28,10 @@ public class FindPairMatchesK {
             if (hSet.contains(k - A[i])) {
                 return true;
             }
-            hSet.add(A[i]);
 
+            hSet.add(A[i]);
         }
+
         return false;
     }
 }
