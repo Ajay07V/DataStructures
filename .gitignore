@@ -1,0 +1,14 @@
+# Ignore IDE files (for example, IntelliJ, Eclipse)
+### IntelliJ IDEA ###
+.idea/
+*.iml
+*.iws
+
+# Maven / Gradle dependencies and build directories
+target/
+out/
+
+# Ignore package files
+*.jar
+*.war
+*.ear
