@@ -3,6 +3,7 @@
 .idea/
 *.iml
 *.iws
+.DS_Store
 
 # Maven / Gradle dependencies and build directories
 target/
